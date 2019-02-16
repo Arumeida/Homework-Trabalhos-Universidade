@@ -1,3 +1,6 @@
+/*	Matheus Henrique dos Santos Almeida
+	This program was created to study the tree data structure
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
