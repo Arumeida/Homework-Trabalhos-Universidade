@@ -1,0 +1,47 @@
+program funcoes;
+parameter(TAM = 10)
+type aluno = record
+ dimension real nota1, nota2
+ end
+dimension integer A, B, C, D
+dimension integer E(15)
+dimension aluno F
+common(factorial,A)
+common(exp,A,B)
+common(maior,E)
+function integer fatorial
+dimension integer I,result
+ i = 1
+result =1
+while i < A
+result = result*i
+I = i+1
+loop
+end
+function real exp
+dimension integer i, result
+ i = 1
+ result = A
+if B = 0 then
+ result = 1
+else
+ while i < B
+ result = A * A
+ i = i + 1
+ loop
+ endif
+end
+function aluno lerDados
+print “digite as notas do aluno”;
+read result.nota1;
+read result.nota2;
+end
+function integer maior
+dimension integer i,result;
+ i = 0
+result = E[0]
+while i < 15
+if E[i] > result then
+ result = E[i]
+loop
+end 
